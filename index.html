@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	 <link rel="stylesheet" href="style.css" />
+	<title>Spisok</title>
+</head>
+<body>
+	<div class="wrapp">
+      <h1>To Do List:</h1>
+        <input type="text" autocomplete="off" id="todoInput">
+        <button class="btn_add" type="button" onclick="todoList()">Add</button>
+        <div class="inProgress">
+        <h1>In-Progress:</h1>
+    <ul id="todoUl">
+    </ul>
+    </div>
+    <div class="complete" id="complete">
+      <h1>Complete:</h1>
+    </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
